@@ -15,7 +15,7 @@ import java.util.Map;
  */
 public class TowSum {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         int[] array = new int[]{1,2,3,4,5,6,7};
         System.out.print(Arrays.toString(towSum(array, 11)));
     }
