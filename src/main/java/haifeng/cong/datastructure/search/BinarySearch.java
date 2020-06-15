@@ -20,7 +20,7 @@ public class BinarySearch {
         int endIndex = array.length - 1;
         int startIndex = 0;
         while (startIndex <= endIndex) {
-            int mid = (endIndex + startIndex)/2;
+            int mid = (endIndex + startIndex) >> 1;
             if (array[mid] == target) {
                 return mid;
             }
