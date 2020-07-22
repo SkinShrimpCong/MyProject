@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2020-07-22T07:24:27.316Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="P70ABCKo2lPe2hZ6Uu-R" version="13.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-22T08:10:00.555Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="ioK9nT-JL_E2lk4MjdMK" version="13.4.9" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2130" dy="2096" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="mnBdbgV8jX7nQdFRX_Ui-82" value="" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="90" y="610" width="670" height="470" as="geometry" />
+          <mxGeometry x="91" y="601" width="670" height="470" as="geometry" />
         </mxCell>
         <mxCell id="mnBdbgV8jX7nQdFRX_Ui-83" value="&lt;h1&gt;RCDC收到shine返回用户终端初始化选择&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="90" y="620" width="240" height="60" as="geometry" />
+          <mxGeometry x="91" y="611" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mnBdbgV8jX7nQdFRX_Ui-14" value="" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="90" y="-30" width="670" height="610" as="geometry" />
@@ -35,7 +35,7 @@
           <mxGeometry x="90" y="-20" width="310" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mnBdbgV8jX7nQdFRX_Ui-16" value="" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="790" y="-30" width="750" height="1020" as="geometry" />
+          <mxGeometry x="790" y="-30" width="750" height="2010" as="geometry" />
         </mxCell>
         <mxCell id="mnBdbgV8jX7nQdFRX_Ui-17" value="&lt;h1&gt;Shine&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="790" y="-20" width="100" height="40" as="geometry" />
@@ -100,7 +100,7 @@
         <mxCell id="mnBdbgV8jX7nQdFRX_Ui-35" value="向RCDC发送虚机运行中状态码，并记录此次操作，重启终端或退出虚机时执行" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="890" y="150" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mnBdbgV8jX7nQdFRX_Ui-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mnBdbgV8jX7nQdFRX_Ui-37" target="mnBdbgV8jX7nQdFRX_Ui-52">
+        <mxCell id="mnBdbgV8jX7nQdFRX_Ui-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mnBdbgV8jX7nQdFRX_Ui-37" target="mnBdbgV8jX7nQdFRX_Ui-111">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mnBdbgV8jX7nQdFRX_Ui-37" value="向RCDC返回对应正在进行的终端操作码" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -123,23 +123,19 @@
         <mxCell id="mnBdbgV8jX7nQdFRX_Ui-43" value="用户选择是否进行初始化" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1040" y="620" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="mnBdbgV8jX7nQdFRX_Ui-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mnBdbgV8jX7nQdFRX_Ui-49" target="mnBdbgV8jX7nQdFRX_Ui-52">
+        <mxCell id="mnBdbgV8jX7nQdFRX_Ui-110" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mnBdbgV8jX7nQdFRX_Ui-49" target="mnBdbgV8jX7nQdFRX_Ui-109">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mnBdbgV8jX7nQdFRX_Ui-49" value="移除配置文件中终端初始化操作记录，并向RCDC上报用户不进行终端初始化" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="mnBdbgV8jX7nQdFRX_Ui-49" value="移除配置文件中终端初始化操作记录" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1260" y="630" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mnBdbgV8jX7nQdFRX_Ui-52" value="结束" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1410" y="620" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="mnBdbgV8jX7nQdFRX_Ui-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mnBdbgV8jX7nQdFRX_Ui-55" target="mnBdbgV8jX7nQdFRX_Ui-57">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="mnBdbgV8jX7nQdFRX_Ui-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mnBdbgV8jX7nQdFRX_Ui-55">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1120" y="839.9999999999995" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="mnBdbgV8jX7nQdFRX_Ui-55" value="移除配置文件中终端初始化操作记录" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1060" y="740" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="mnBdbgV8jX7nQdFRX_Ui-57" value="如果开启" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1060" y="840" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mnBdbgV8jX7nQdFRX_Ui-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mnBdbgV8jX7nQdFRX_Ui-64" target="mnBdbgV8jX7nQdFRX_Ui-66">
           <mxGeometry relative="1" as="geometry" />
@@ -154,7 +150,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mnBdbgV8jX7nQdFRX_Ui-68" value="收到shine返回用户终端初始化选择" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="330" y="677.5" width="120" height="80" as="geometry" />
+          <mxGeometry x="331" y="668.5" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="mnBdbgV8jX7nQdFRX_Ui-76" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mnBdbgV8jX7nQdFRX_Ui-71" target="mnBdbgV8jX7nQdFRX_Ui-75">
           <mxGeometry relative="1" as="geometry" />
@@ -163,22 +159,188 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mnBdbgV8jX7nQdFRX_Ui-71" value="是否进行初始化" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="310" y="782.5" width="160" height="80" as="geometry" />
+          <mxGeometry x="311" y="773.5" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="mnBdbgV8jX7nQdFRX_Ui-80" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mnBdbgV8jX7nQdFRX_Ui-75" target="mnBdbgV8jX7nQdFRX_Ui-79">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mnBdbgV8jX7nQdFRX_Ui-75" value="记录shine确认进行终端初始化的系统日志" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="330" y="902.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="331" y="893.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mnBdbgV8jX7nQdFRX_Ui-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mnBdbgV8jX7nQdFRX_Ui-77" target="mnBdbgV8jX7nQdFRX_Ui-79">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mnBdbgV8jX7nQdFRX_Ui-77" value="记录shine取消进行终端初始化的系统日志" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="505" y="792.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="506" y="783.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mnBdbgV8jX7nQdFRX_Ui-79" value="结束" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="330" y="982.5" width="120" height="80" as="geometry" />
+          <mxGeometry x="331" y="973.5" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mnBdbgV8jX7nQdFRX_Ui-84" value="" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="92" y="1090" width="670" height="770" as="geometry" />
+        </mxCell>
+        <mxCell id="mnBdbgV8jX7nQdFRX_Ui-85" value="&lt;h1&gt;RCDC收到shine返回终端初始化结果&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="103" y="1110" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mnBdbgV8jX7nQdFRX_Ui-88" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mnBdbgV8jX7nQdFRX_Ui-86" target="mnBdbgV8jX7nQdFRX_Ui-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mnBdbgV8jX7nQdFRX_Ui-86" value="收到shine返回终端初始化结果" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="363" y="1169" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mnBdbgV8jX7nQdFRX_Ui-90" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mnBdbgV8jX7nQdFRX_Ui-87" target="mnBdbgV8jX7nQdFRX_Ui-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mnBdbgV8jX7nQdFRX_Ui-101" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mnBdbgV8jX7nQdFRX_Ui-87" target="mnBdbgV8jX7nQdFRX_Ui-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mnBdbgV8jX7nQdFRX_Ui-87" value="终端初始化是否成功" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="343" y="1295" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mnBdbgV8jX7nQdFRX_Ui-92" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mnBdbgV8jX7nQdFRX_Ui-89" target="mnBdbgV8jX7nQdFRX_Ui-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mnBdbgV8jX7nQdFRX_Ui-89" value="记录终端初始化成功系统日志" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="363" y="1410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mnBdbgV8jX7nQdFRX_Ui-94" value="个人" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mnBdbgV8jX7nQdFRX_Ui-91" target="mnBdbgV8jX7nQdFRX_Ui-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mnBdbgV8jX7nQdFRX_Ui-96" value="公用" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mnBdbgV8jX7nQdFRX_Ui-91" target="mnBdbgV8jX7nQdFRX_Ui-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mnBdbgV8jX7nQdFRX_Ui-91" value="个人还是公用终端" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="343" y="1510" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mnBdbgV8jX7nQdFRX_Ui-98" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mnBdbgV8jX7nQdFRX_Ui-93" target="mnBdbgV8jX7nQdFRX_Ui-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mnBdbgV8jX7nQdFRX_Ui-93" value="解除用户、云桌面和终端的绑定信息，删除对应IDV云桌面，并将终端移动至未分组" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="363" y="1640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mnBdbgV8jX7nQdFRX_Ui-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mnBdbgV8jX7nQdFRX_Ui-95" target="mnBdbgV8jX7nQdFRX_Ui-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mnBdbgV8jX7nQdFRX_Ui-95" value="删除idv云桌面，将终端移动至未分组" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="563" y="1520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mnBdbgV8jX7nQdFRX_Ui-97" value="结束" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="363" y="1770" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mnBdbgV8jX7nQdFRX_Ui-102" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mnBdbgV8jX7nQdFRX_Ui-100" target="mnBdbgV8jX7nQdFRX_Ui-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mnBdbgV8jX7nQdFRX_Ui-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mnBdbgV8jX7nQdFRX_Ui-100" target="mnBdbgV8jX7nQdFRX_Ui-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mnBdbgV8jX7nQdFRX_Ui-100" value="记录终端初始化失败系统日志" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="173" y="1305" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mnBdbgV8jX7nQdFRX_Ui-106" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mnBdbgV8jX7nQdFRX_Ui-104" target="mnBdbgV8jX7nQdFRX_Ui-105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mnBdbgV8jX7nQdFRX_Ui-117" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mnBdbgV8jX7nQdFRX_Ui-104" target="mnBdbgV8jX7nQdFRX_Ui-116">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mnBdbgV8jX7nQdFRX_Ui-104" value="是否开启极速开机" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1040" y="840" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mnBdbgV8jX7nQdFRX_Ui-108" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mnBdbgV8jX7nQdFRX_Ui-105" target="mnBdbgV8jX7nQdFRX_Ui-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mnBdbgV8jX7nQdFRX_Ui-105" value="终止镜像下载" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1060" y="953.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mnBdbgV8jX7nQdFRX_Ui-120" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mnBdbgV8jX7nQdFRX_Ui-107" target="mnBdbgV8jX7nQdFRX_Ui-119">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mnBdbgV8jX7nQdFRX_Ui-107" value="上报RCDC用户确认进行终端初始化" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1060" y="1053.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mnBdbgV8jX7nQdFRX_Ui-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mnBdbgV8jX7nQdFRX_Ui-109" target="mnBdbgV8jX7nQdFRX_Ui-111">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mnBdbgV8jX7nQdFRX_Ui-109" value="上报RCDC用户取消进行终端初始化" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1260" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mnBdbgV8jX7nQdFRX_Ui-111" value="结束" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1260" y="843.5" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mnBdbgV8jX7nQdFRX_Ui-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mnBdbgV8jX7nQdFRX_Ui-116" target="mnBdbgV8jX7nQdFRX_Ui-105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mnBdbgV8jX7nQdFRX_Ui-116" value="关闭预启动的桌面" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="880" y="850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mnBdbgV8jX7nQdFRX_Ui-122" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mnBdbgV8jX7nQdFRX_Ui-119" target="mnBdbgV8jX7nQdFRX_Ui-121">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mnBdbgV8jX7nQdFRX_Ui-123" value="成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mnBdbgV8jX7nQdFRX_Ui-122">
+          <mxGeometry x="-0.2014" y="-1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mnBdbgV8jX7nQdFRX_Ui-141" value="失败" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mnBdbgV8jX7nQdFRX_Ui-119" target="mnBdbgV8jX7nQdFRX_Ui-140">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mnBdbgV8jX7nQdFRX_Ui-119" value="删除镜像文件、本地差分文件、&lt;br&gt;应用分层盘文件、数据盘&lt;br&gt;和配置文件字段" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="991.25" y="1144.75" width="257.5" height="115.25" as="geometry" />
+        </mxCell>
+        <mxCell id="mnBdbgV8jX7nQdFRX_Ui-127" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mnBdbgV8jX7nQdFRX_Ui-121" target="mnBdbgV8jX7nQdFRX_Ui-126">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mnBdbgV8jX7nQdFRX_Ui-121" value="完成初始化，取消终端操作限制" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1060" y="1315" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mnBdbgV8jX7nQdFRX_Ui-129" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mnBdbgV8jX7nQdFRX_Ui-126" target="mnBdbgV8jX7nQdFRX_Ui-128">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mnBdbgV8jX7nQdFRX_Ui-126" value="退出保护模式" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1060" y="1410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mnBdbgV8jX7nQdFRX_Ui-131" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mnBdbgV8jX7nQdFRX_Ui-128" target="mnBdbgV8jX7nQdFRX_Ui-130">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mnBdbgV8jX7nQdFRX_Ui-128" value="保存服务器ID到配置文件" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1060" y="1510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mnBdbgV8jX7nQdFRX_Ui-133" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mnBdbgV8jX7nQdFRX_Ui-130" target="mnBdbgV8jX7nQdFRX_Ui-132">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mnBdbgV8jX7nQdFRX_Ui-130" value="通知ShineUI和RCDC终端初始化成功" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1060" y="1600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mnBdbgV8jX7nQdFRX_Ui-135" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mnBdbgV8jX7nQdFRX_Ui-132" target="mnBdbgV8jX7nQdFRX_Ui-134">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mnBdbgV8jX7nQdFRX_Ui-138" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mnBdbgV8jX7nQdFRX_Ui-132" target="mnBdbgV8jX7nQdFRX_Ui-136">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mnBdbgV8jX7nQdFRX_Ui-139" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mnBdbgV8jX7nQdFRX_Ui-138">
+          <mxGeometry x="-0.3253" y="-3" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mnBdbgV8jX7nQdFRX_Ui-132" value="是否开启极速开机" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1040" y="1690" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mnBdbgV8jX7nQdFRX_Ui-137" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mnBdbgV8jX7nQdFRX_Ui-134" target="mnBdbgV8jX7nQdFRX_Ui-136">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mnBdbgV8jX7nQdFRX_Ui-134" value="重启终端" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1060" y="1800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mnBdbgV8jX7nQdFRX_Ui-136" value="结束" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1060" y="1880" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mnBdbgV8jX7nQdFRX_Ui-143" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mnBdbgV8jX7nQdFRX_Ui-140" target="mnBdbgV8jX7nQdFRX_Ui-142">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mnBdbgV8jX7nQdFRX_Ui-140" value="通知ShineUI和RCDC终端初始化失败" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1330" y="1172.375" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mnBdbgV8jX7nQdFRX_Ui-142" value="" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1330" y="1270.005" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
