@@ -3,7 +3,7 @@ package haifeng.cong.thread.producerconsumer;
 /**
  * Description:
  * Copyright: Copyright (c) 2020
- * Company: Ruijie Co., Ltd.
+ * Company: Ruijie Co., Ltd.test
  * Create Time: 2021/1/4 15:12
  *
  * @author conghaifeng
