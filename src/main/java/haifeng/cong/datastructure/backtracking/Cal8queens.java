@@ -1,5 +1,7 @@
 package haifeng.cong.datastructure.backtracking;
 
+import java.util.LinkedHashMap;
+
 /**
  * Description:
  * Copyright: Copyright (c) 2020
@@ -57,5 +59,15 @@ public class Cal8queens {
             System.out.println();
         }
         System.out.println();
+    }
+
+    public static void main(String[] args){
+        LinkedHashMap<Integer, String> cache = new LinkedHashMap<>(3, 0.75f, true);
+        cache.put(1, "a");
+        cache.put(2, "b");
+        cache.put(3, "c");
+        cache.get(1);
+
+        System.out.println(cache.keySet());
     }
 }
