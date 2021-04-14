@@ -1,19 +1,17 @@
-package haifeng.cong.thread.producerconsumer;
+package haifeng.cong.leetcode;
 
 /**
  * Description:
  * Copyright: Copyright (c) 2020
  * Company: Ruijie Co., Ltd.
- * Create Time: 2021/1/4 18:09
+ * Create Time: 2021/3/12 16:41
  *
  * @author conghaifeng
  */
-public class Product {
-
-    public static boolean hasProduct;
+public class ValidIPAddress468验证IPTest {
 
     public static void main(String[] args){
-
+        System.out.println(Integer.valueOf("01"));
     }
 
 }
