@@ -28,10 +28,12 @@ public class CoinChange {
     }
 
     public static int coinChange2(int[] coins, int amount) {
+        //凑amount的的值最少数量
         int[] dp = new int[amount + 1];
         return coinChange(coins, amount, dp);
     }
 
+    //返回凑amount的的值最少数量
     private static int coinChange(int[] coins, int amount, int[] dp) {
         if (amount < 0) {
             return -1;
@@ -57,6 +59,6 @@ public class CoinChange {
     }
 
     public static void main(String[] args){
-        System.out.println(coinChange1(new int[]{1,2,5}, 11));
+        System.out.println(coinChange2(new int[]{1,2,5}, 11));
     }
 }

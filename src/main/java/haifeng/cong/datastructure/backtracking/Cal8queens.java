@@ -53,8 +53,12 @@ public class Cal8queens {
     private void printQueens(int[] result) { // 打印出一个二维矩阵
         for (int row = 0; row < 8; ++row) {
             for (int column = 0; column < 8; ++column) {
-                if (result[row] == column) System.out.print("Q ");
-                else System.out.print("* ");
+                if (result[row] == column) {
+
+                    System.out.print("Q ");
+                } else {
+                    System.out.print("* ");
+                }
             }
             System.out.println();
         }

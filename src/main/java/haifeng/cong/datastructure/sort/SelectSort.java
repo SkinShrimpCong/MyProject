@@ -5,26 +5,26 @@ import java.util.Arrays;
 public class SelectSort {
 
     public static void main(String[] args) {
-        int[] array = {43, 67, 1};
+        int[] array = {43, 1, 40};
         SelectSort selectSort = new SelectSort();
         System.out.println(Arrays.toString(selectSort.selectSort(array)));
     }
 
     public int[] selectSort(int[] array) {
         int size = array.length;
-        for (int i = 1; i<size; ++i) {
-            int value = array[i];
-            int j = i-1;
-            for (; j>=0; --j) {
-                if (array[j] > value) {
-                    array[j+1] = array[j];
-                } else {
-                    break;
+        //i是比较的轮数
+        for (int i = 0; i < size - 1; i++) {
+
+            //j是每轮比较的次数
+            for (int j = i + 1; j < size; j++) {
+                if (array[j] < array[i]) {
+                    int min = array[i];
+                    array[i] = array[j];
+                    array[j] = min;
                 }
             }
-            //插入,因为最后一次循环出来的时候将j减了1
-            array[j+1] = value;
+
         }
-        return array;
+        return  array;
     }
 }

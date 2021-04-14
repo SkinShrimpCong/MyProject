@@ -10,6 +10,7 @@ package haifeng.cong.leetcode;
  */
 public class ReverseList {
 
+    //递归
     public static ListNode reverseList(ListNode head) {
 
         if (head == null || head.next == null) {
@@ -23,15 +24,29 @@ public class ReverseList {
         return last;
     }
 
-    public static ListNode reverseList2(ListNode head) {
+    //双指针方法
+//    public static ListNode reverseList2(ListNode head) {
+//        ListNode pre = null;
+//        ListNode cur = head;
+//        while (cur != null) {
+//            //注意不能直接等于curr，否则curr对象的变动会带入temp对象
+//            ListNode temp = cur.next;
+//            cur.next = pre;
+//            pre = cur;
+//            cur = temp;
+//        }
+//        return pre;
+//    }
+
+    private static ListNode reverseList2(ListNode head) {
+
         ListNode pre = null;
-        ListNode curr = head;
-        while (curr != null) {
-            //注意不能直接等于curr，否则curr对象的变动会带入temp对象
-            ListNode temp = curr.next;
-            curr.next = pre;
-            pre = curr;
-            curr = temp;
+        ListNode cur = head;
+        while (cur != null) {
+            ListNode temp = cur.next;
+            cur.next = pre;
+            pre = cur;
+            cur = temp;
         }
         return pre;
     }

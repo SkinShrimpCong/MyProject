@@ -6,6 +6,7 @@ import java.util.List;
 /**
  * Description:46. 全排列
  * 给定一个 没有重复 数字的序列，返回其所有可能的全排列。
+ * 其核心就是 for 循环里面的递归，在递归调用之前「做选择」，在递归调用之后「撤销选择」
  * Copyright: Copyright (c) 2020
  * Company: Ruijie Co., Ltd.
  * Create Time: 2021/1/17 16:43
@@ -19,6 +20,7 @@ public class Permute {
     public static List<List<Integer>> permute(int[] nums) {
         //路径表
         LinkedList<Integer> backtrack = new LinkedList<>();
+        //nums是选择列表
         backTrack(nums, backtrack);
         return anw;
 

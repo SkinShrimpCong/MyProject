@@ -2,6 +2,14 @@ package haifeng.cong.datastructure.sort;
 
 import java.util.Arrays;
 
+/**
+ * Description:快速排序（先分后排再分再排，类似于前序遍历）
+ * Copyright: Copyright (c) 2020
+ * Company: Ruijie Co., Ltd.
+ * Create Time: 2021/3/2 10:15
+ *
+ * @author conghaifeng
+ */
 public class QuickSort {
 
     public static void main(String[] args) {
@@ -23,15 +31,15 @@ public class QuickSort {
 
     private static int partition(int[] array, int startIndex, int endIndex) {
         int pivot = array[startIndex];
-        int mark = startIndex;
+        int mark = startIndex + 1;
         for(int i = startIndex; i <= endIndex; ++i) {
             if (array[i] < pivot) {
-                ++ mark;
                 swap(array, i, mark);
+                mark++;
             }
         }
-        swap(array, startIndex, mark);
-        return mark;
+        swap(array, startIndex, mark-1);
+        return mark-1;
     }
 
     private static void swap(int[] array, int firstIndex, int secondIndex) {
